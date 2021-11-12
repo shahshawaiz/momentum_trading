@@ -1,0 +1,10 @@
+monentum strategy rules
+
+
+notes
+use 12 months of data for 
+reinvest after 3 months
+after crisis changed weight
+
+evaluate
+optimized vs non-optimized
