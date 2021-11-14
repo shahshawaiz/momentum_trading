@@ -8,3 +8,30 @@ after crisis changed weight
 
 evaluate
 optimized vs non-optimized
+
+
+monthly returns
+=((I13+1)*(I12+1)*(I11+1)*(I10+1)*(I9+1)*(I8+1)*(I7+1)*(I6+1)*(I5+1)*(I4+1)*(I3+1)*(I2+1))-1
+
+o	For the first sample (Testing period) :
+	I will change the weight for the portfolios invested between 01/10/2001 and 01/03/2003
+	I will change the weight for the portfolios invested between 01/10/2008 and 01/03/2010
+o	For the second sample (Implementation period): 
+	I will change the weight for the portfolios invested between 01/04/2020 until the end of my sample
+
+
+Results for classifical and modified weights:
+    holding period x2
+    yearly x2
+
+
+round of investment
+	. calculate returns of last 12 month 
+	. select winners and losers
+		
+holding calculations
+	. only do it for the winners and losers given the formatin operiod
+	. for every winner and loser, calculate the returns for last 3 months. Starting from formati onperiod
+	. take average of every winner and loser ticker
+	. difference of winner and losert
+
