@@ -13,12 +13,6 @@ optimized vs non-optimized
 monthly returns
 =((I13+1)*(I12+1)*(I11+1)*(I10+1)*(I9+1)*(I8+1)*(I7+1)*(I6+1)*(I5+1)*(I4+1)*(I3+1)*(I2+1))-1
 
-o	For the first sample (Testing period) :
-	I will change the weight for the portfolios invested between 01/10/2001 and 01/03/2003
-	I will change the weight for the portfolios invested between 01/10/2008 and 01/03/2010
-o	For the second sample (Implementation period): 
-	I will change the weight for the portfolios invested between 01/04/2020 until the end of my sample
-
 
 Results for classifical and modified weights:
     holding period x2
@@ -35,3 +29,11 @@ holding calculations
 	. take average of every winner and loser ticker
 	. difference of winner and losert
 
+
+
+o	For the first sample (Testing period) :
+	I will change the weight for the portfolios invested between 01/09/2002 and 01/02/2004  from the 01/09/2002 INCLUDED and for 01/02/2004 INCLUDED 
+	I will change the weight for the portfolios invested between 01/10/2008 and 01/10/2010   starting from the 01/10/2008 INCLUDED and for 01/10/2010 INCLUDED 
+	I will change the weight for the portfolios invested between 01/09/2011 and 01/02/2013   starting from the 01/09/2011 INCLUDED and for 01/02/2013 INCLUDED 
+o	For the second sample (Implementation period): 
+	I will change the weight for the portfolios invested between 01/04/2020 until the end of my sample   starting from the 01/04/2020 INCLUDED until the end
